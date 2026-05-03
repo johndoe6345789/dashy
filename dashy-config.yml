@@ -3,9 +3,9 @@ pageInfo:
   description: All running services at a glance
   navLinks:
     - title: Portainer
-      path: http://localhost:9443
+      path: http://rdesktop.taild98fe6.ts.net:9443
     - title: GitLab
-      path: http://localhost:47291
+      path: http://rdesktop.taild98fe6.ts.net:47291
 
 appConfig:
   theme: colorful
@@ -21,25 +21,25 @@ sections:
     items:
       - title: Portainer
         description: Docker container management UI
-        url: http://localhost:9443
+        url: http://rdesktop.taild98fe6.ts.net:9443
         icon: hl-portainer
         target: newtab
 
       - title: GitLab
         description: Self-hosted Git & CI/CD platform
-        url: http://localhost:47291
+        url: http://rdesktop.taild98fe6.ts.net:47291
         icon: hl-gitlab
         target: newtab
 
       - title: Jenkins
         description: CI/CD automation server (via Nginx)
-        url: http://localhost:8081
+        url: http://rdesktop.taild98fe6.ts.net:8081
         icon: hl-jenkins
         target: newtab
 
       - title: Jenkins (direct)
         description: Jenkins on port 8082
-        url: http://localhost:8082
+        url: http://rdesktop.taild98fe6.ts.net:8082
         icon: hl-jenkins
         target: newtab
 
@@ -49,13 +49,13 @@ sections:
     items:
       - title: Drupal
         description: Drupal 10 CMS
-        url: http://localhost:28080
+        url: http://rdesktop.taild98fe6.ts.net:28080
         icon: hl-drupal
         target: newtab
 
       - title: Joomla
         description: Joomla CMS
-        url: http://localhost:18080
+        url: http://rdesktop.taild98fe6.ts.net:18080
         icon: hl-joomla
         target: newtab
 
@@ -65,97 +65,97 @@ sections:
     items:
       - title: Frontend App
         description: MetaBuilder main frontend
-        url: http://localhost:3008
+        url: http://rdesktop.taild98fe6.ts.net:3008
         icon: mdi-application-brackets
         target: newtab
 
       - title: Code Generator
         description: MetaBuilder code generation tool
-        url: http://localhost:3022
+        url: http://rdesktop.taild98fe6.ts.net:3022
         icon: mdi-code-braces
         target: newtab
 
       - title: Pastebin
         description: MetaBuilder pastebin
-        url: http://localhost:3003
+        url: http://rdesktop.taild98fe6.ts.net:3003
         icon: mdi-clipboard-text
         target: newtab
 
       - title: Email Client
         description: MetaBuilder email client
-        url: http://localhost:3005
+        url: http://rdesktop.taild98fe6.ts.net:3005
         icon: mdi-email
         target: newtab
 
       - title: DBAL Frontend
         description: Database abstraction layer UI
-        url: http://localhost:3015
+        url: http://rdesktop.taild98fe6.ts.net:3015
         icon: mdi-database-edit
         target: newtab
 
       - title: Workflow UI
         description: MetaBuilder workflow editor
-        url: http://localhost:3021
+        url: http://rdesktop.taild98fe6.ts.net:3021
         icon: mdi-workflow
         target: newtab
 
       - title: Postgres Dashboard
         description: MetaBuilder PostgreSQL dashboard
-        url: http://localhost:3004
+        url: http://rdesktop.taild98fe6.ts.net:3004
         icon: hl-pgadmin
         target: newtab
 
       - title: Package Repo
         description: MetaBuilder package repository
-        url: http://localhost:3011
+        url: http://rdesktop.taild98fe6.ts.net:3011
         icon: mdi-package-variant
         target: newtab
 
       - title: Docker Terminal
         description: MetaBuilder web-based Docker terminal
-        url: http://localhost:3010
+        url: http://rdesktop.taild98fe6.ts.net:3010
         icon: mdi-console
         target: newtab
 
       - title: Exploded Diagrams
         description: MetaBuilder exploded diagrams viewer
-        url: http://localhost:3026
+        url: http://rdesktop.taild98fe6.ts.net:3026
         icon: mdi-vector-combine
         target: newtab
 
       - title: Repo Forge
         description: MetaBuilder repository forge
-        url: http://localhost:3032
+        url: http://rdesktop.taild98fe6.ts.net:3032
         icon: mdi-source-repository
         target: newtab
 
       - title: Caprovore Forge
         description: MetaBuilder CapRover-style forge
-        url: http://localhost:3033
+        url: http://rdesktop.taild98fe6.ts.net:3033
         icon: mdi-rocket-launch
         target: newtab
 
       - title: Nginx Gateway
         description: MetaBuilder Nginx reverse proxy
-        url: http://localhost:8900
+        url: http://rdesktop.taild98fe6.ts.net:8900
         icon: hl-nginx
         target: newtab
 
       - title: Email Service
         description: MetaBuilder email microservice
-        url: http://localhost:8501
+        url: http://rdesktop.taild98fe6.ts.net:8501
         icon: mdi-email-fast
         target: newtab
 
       - title: SMTP Relay UI
         description: MetaBuilder SMTP relay web UI
-        url: http://localhost:8026
+        url: http://rdesktop.taild98fe6.ts.net:8026
         icon: mdi-email-send
         target: newtab
 
       - title: DBAL API
         description: MetaBuilder database abstraction layer API
-        url: http://localhost:8085
+        url: http://rdesktop.taild98fe6.ts.net:8085
         icon: mdi-database-cog
         target: newtab
 
@@ -165,37 +165,37 @@ sections:
     items:
       - title: phpMyAdmin
         description: MySQL web admin (MetaBuilder)
-        url: http://localhost:8087
+        url: http://rdesktop.taild98fe6.ts.net:8087
         icon: hl-phpmyadmin
         target: newtab
 
       - title: Mongo Express
         description: MongoDB web admin (MetaBuilder)
-        url: http://localhost:8086
+        url: http://rdesktop.taild98fe6.ts.net:8086
         icon: hl-mongodb
         target: newtab
 
       - title: RedisInsight
         description: Redis GUI (MetaBuilder)
-        url: http://localhost:8083
+        url: http://rdesktop.taild98fe6.ts.net:8083
         icon: hl-redis
         target: newtab
 
       - title: Kibana
         description: Elasticsearch visualisation (MetaBuilder)
-        url: http://localhost:5601
+        url: http://rdesktop.taild98fe6.ts.net:5601
         icon: hl-kibana
         target: newtab
 
       - title: Elasticsearch
         description: Search & analytics engine (MetaBuilder)
-        url: http://localhost:9201
+        url: http://rdesktop.taild98fe6.ts.net:9201
         icon: hl-elasticsearch
         target: newtab
 
       - title: Verdaccio
         description: Private npm registry (MetaBuilder)
-        url: http://localhost:4874
+        url: http://rdesktop.taild98fe6.ts.net:4874
         icon: hl-verdaccio
         target: newtab
 
@@ -205,85 +205,85 @@ sections:
     items:
       - title: Portal
         description: Main portal
-        url: http://localhost:8889
+        url: http://rdesktop.taild98fe6.ts.net:8889
         icon: mdi-view-dashboard
         target: newtab
 
       - title: Frontend
         description: Primary frontend application
-        url: http://localhost:3100
+        url: http://rdesktop.taild98fe6.ts.net:3100
         icon: mdi-application-brackets
         target: newtab
 
       - title: SSO
         description: Single sign-on portal
-        url: http://localhost:3099
+        url: http://rdesktop.taild98fe6.ts.net:3099
         icon: mdi-shield-key
         target: newtab
 
       - title: Email Client
         description: Web email client
-        url: http://localhost:8025
+        url: http://rdesktop.taild98fe6.ts.net:8025
         icon: mdi-email
         target: newtab
 
       - title: Analytics
         description: Analytics dashboard
-        url: http://localhost:9017
+        url: http://rdesktop.taild98fe6.ts.net:9017
         icon: mdi-chart-line
         target: newtab
 
       - title: Status Page
         description: Service status page
-        url: http://localhost:9014
+        url: http://rdesktop.taild98fe6.ts.net:9014
         icon: mdi-check-circle
         target: newtab
 
       - title: Gallery
         description: Media gallery
-        url: http://localhost:9016
+        url: http://rdesktop.taild98fe6.ts.net:9016
         icon: mdi-image-multiple
         target: newtab
 
       - title: Social Admin
         description: Social features admin panel
-        url: http://localhost:9018
+        url: http://rdesktop.taild98fe6.ts.net:9018
         icon: mdi-account-group
         target: newtab
 
       - title: Forum
         description: Community forum
-        url: http://localhost:9020
+        url: http://rdesktop.taild98fe6.ts.net:9020
         icon: mdi-forum
         target: newtab
 
       - title: Feature Flags
         description: Feature flag management
-        url: http://localhost:9019
+        url: http://rdesktop.taild98fe6.ts.net:9019
         icon: mdi-flag
         target: newtab
 
       - title: Alerts
         description: Alert management UI
-        url: http://localhost:8999
+        url: http://rdesktop.taild98fe6.ts.net:8999
         icon: mdi-bell-alert
         target: newtab
 
       - title: Package Repo Frontend
         description: Package repository UI
-        url: http://localhost:5051
+        url: http://rdesktop.taild98fe6.ts.net:5051
         icon: mdi-package-variant-closed
         target: newtab
 
       - title: pgAdmin Frontend
         description: PostgreSQL admin frontend
-        url: http://localhost:3002
+        url: http://rdesktop.taild98fe6.ts.net:3002
         icon: hl-pgadmin
         target: newtab
 
       - title: S3 Frontend
         description: S3-compatible storage UI
-        url: http://localhost:3001
+        url: http://rdesktop.taild98fe6.ts.net:3001
         icon: mdi-cloud-upload
         target: newtab
 
@@ -293,61 +293,61 @@ sections:
     items:
       - title: Main Backend API
         description: Core backend REST API
-        url: http://localhost:8080
+        url: http://rdesktop.taild98fe6.ts.net:8080
         icon: mdi-server-network
         target: newtab
 
       - title: Email Client API
         description: Email client backend API
-        url: http://localhost:8500
+        url: http://rdesktop.taild98fe6.ts.net:8500
         icon: mdi-email-fast-outline
         target: newtab
 
       - title: Package Repo API
         description: Package repo backend API
-        url: http://localhost:5050
+        url: http://rdesktop.taild98fe6.ts.net:5050
         icon: mdi-package-variant
         target: newtab
 
       - title: pgAdmin Backend
         description: PostgreSQL admin backend
-        url: http://localhost:5060
+        url: http://rdesktop.taild98fe6.ts.net:5060
         icon: hl-pgadmin
         target: newtab
 
       - title: Keycloak
         description: Identity & access management
-        url: http://localhost:8088
+        url: http://rdesktop.taild98fe6.ts.net:8088
         icon: hl-keycloak
         target: newtab
 
       - title: S3 Storage (MinIO)
         description: S3-compatible object storage
-        url: http://localhost:9000
+        url: http://rdesktop.taild98fe6.ts.net:9000
         icon: hl-minio
         target: newtab
 
       - title: Verdaccio
         description: Private npm registry
-        url: http://localhost:4873
+        url: http://rdesktop.taild98fe6.ts.net:4873
         icon: hl-verdaccio
         target: newtab
 
       - title: Elasticsearch
         description: Search engine
-        url: http://localhost:9200
+        url: http://rdesktop.taild98fe6.ts.net:9200
         icon: hl-elasticsearch
         target: newtab
 
       - title: Kafka
         description: Event streaming platform
-        url: http://localhost:9092
+        url: http://rdesktop.taild98fe6.ts.net:9092
         icon: hl-apache-kafka
         target: newtab
 
       - title: Nextra Comments API
         description: Comments microservice
-        url: http://localhost:9004
+        url: http://rdesktop.taild98fe6.ts.net:9004
         icon: mdi-comment-multiple
         target: newtab
 
@@ -357,79 +357,79 @@ sections:
     items:
       - title: Nextra Auth
         description: Authentication microservice
-        url: http://localhost:9001
+        url: http://rdesktop.taild98fe6.ts.net:9001
         icon: mdi-shield-account
         target: newtab
 
       - title: Nextra Social
         description: Social features microservice
-        url: http://localhost:9002
+        url: http://rdesktop.taild98fe6.ts.net:9002
         icon: mdi-account-group
         target: newtab
 
       - title: Nextra Notifications
         description: Notification microservice
-        url: http://localhost:9003
+        url: http://rdesktop.taild98fe6.ts.net:9003
         icon: mdi-bell
         target: newtab
 
       - title: Nextra Analytics
         description: Analytics microservice
-        url: http://localhost:9005
+        url: http://rdesktop.taild98fe6.ts.net:9005
         icon: mdi-chart-bar
         target: newtab
 
       - title: Nextra Gamification
         description: Gamification microservice
-        url: http://localhost:9006
+        url: http://rdesktop.taild98fe6.ts.net:9006
         icon: mdi-gamepad-variant
         target: newtab
 
       - title: Nextra Content
         description: Content management microservice
-        url: http://localhost:9007
+        url: http://rdesktop.taild98fe6.ts.net:9007
         icon: mdi-file-document
         target: newtab
 
       - title: Nextra Media
         description: Media handling microservice
-        url: http://localhost:9008
+        url: http://rdesktop.taild98fe6.ts.net:9008
         icon: mdi-video
         target: newtab
 
       - title: Nextra Search
         description: Search microservice
-        url: http://localhost:9009
+        url: http://rdesktop.taild98fe6.ts.net:9009
         icon: mdi-magnify
         target: newtab
 
       - title: Nextra Infra
         description: Infrastructure microservice
-        url: http://localhost:9010
+        url: http://rdesktop.taild98fe6.ts.net:9010
         icon: mdi-server
         target: newtab
 
       - title: Nextra AI
         description: AI/ML microservice
-        url: http://localhost:9011
+        url: http://rdesktop.taild98fe6.ts.net:9011
         icon: mdi-robot
         target: newtab
 
       - title: Nextra Platform
         description: Platform microservice
-        url: http://localhost:9012
+        url: http://rdesktop.taild98fe6.ts.net:9012
         icon: mdi-layers
         target: newtab
 
       - title: Nextra Commerce
         description: E-commerce microservice
-        url: http://localhost:9013
+        url: http://rdesktop.taild98fe6.ts.net:9013
         icon: mdi-shopping
         target: newtab
 
       - title: Nextra Infra (9010)
         description: Infrastructure API
-        url: http://localhost:9010
+        url: http://rdesktop.taild98fe6.ts.net:9010
         icon: mdi-server-network
         target: newtab
 
@@ -439,12 +439,12 @@ sections:
     items:
       - title: MediaMTX (HTTP)
         description: Media streaming server web UI
-        url: http://localhost:8888
+        url: http://rdesktop.taild98fe6.ts.net:8888
         icon: mdi-video-box
         target: newtab
 
       - title: MediaMTX API
         description: MediaMTX REST API
-        url: http://localhost:9997
+        url: http://rdesktop.taild98fe6.ts.net:9997
         icon: mdi-api
         target: newtab
