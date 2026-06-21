@@ -1,0 +1,1013 @@
+appConfig:
+  theme: colorful
+  language: en-GB
+pageInfo:
+  title: Wardcrew.com
+  description: Home for the ward family
+  navLinks:
+    - title: GitHub
+      path: https://github.com/johndoe6345789/metabuilder
+sections:
+  - name: Infrastructure
+    icon: fas fa-server
+    items:
+      - title: Caprover
+        icon: fas fa-layer-group
+        url: https://captain.wardcrew.com
+        target: newtab
+        id: 0_1505_caprover
+      - title: Metabuilder
+        url: https://metabuilder.wardcrew.com
+        icon: fas fa-hammer
+        id: 1_1505_metabuilder
+      - title: Business Admin
+        url: https://business.wardcrew.com
+        icon: fas fa-briefcase
+        id: 2_1505_businessadmin
+      - title: Jenkins
+        url: https://jenkins.wardcrew.com
+        icon: fas fa-industry
+        id: 3_1505_jenkins
+      - title: Portainer
+        url: https://wardcrew.com:9443
+        icon: fab fa-docker
+        id: 4_1505_portainer
+      - title: Vault
+        url: https://vault.wardcrew.com
+        statusCheck: true
+        id: temp_Vault
+      - title: Ham Radio
+        url: https://hamradio.wardcrew.com
+        icon: fas fa-broadcast-tower
+        id: 5_1505_hamradio
+      - title: Web Dev
+        url: https://webdev.wardcrew.com
+        icon: fas fa-code
+        id: 6_1505_webdev
+      - title: Workforce
+        url: https://workforce.wardcrew.com
+        icon: fas fa-hard-hat
+        id: 7_1505_workforce
+      - title: Strategy
+        url: https://strategy.wardcrew.com
+        icon: fas fa-chess
+        id: 8_1505_strategy
+      - title: Nexus Command
+        url: https://nexuscommand.wardcrew.com
+        icon: fas fa-terminal
+        id: 9_1505_nexuscommand
+      - title: PyRACMS
+        url: https://pyracms.wardcrew.com
+        icon: fas fa-globe
+        id: 10_1505_pyracms
+  - name: Nextra — Public
+    icon: fas fa-globe
+    displayData:
+      cols: 2
+    items:
+      - title: Home
+        url: http://wardcrew.com:8889/app/en
+        icon: fas fa-home
+        id: 0_9509_home
+      - title: About
+        url: http://wardcrew.com:8889/app/en/about
+        icon: fas fa-info-circle
+        id: 1_9509_about
+      - title: Features
+        url: http://wardcrew.com:8889/app/en/features
+        icon: fas fa-star
+        id: 2_9509_features
+      - title: Contact
+        url: http://wardcrew.com:8889/app/en/contact
+        icon: fas fa-envelope
+        id: 3_9509_contact
+      - title: Blog
+        url: http://wardcrew.com:8889/app/en/blog
+        icon: fas fa-newspaper
+        id: 4_9509_blog
+      - title: Forum
+        url: http://wardcrew.com:8889/app/en/forum
+        icon: fas fa-comments
+        id: 5_9509_forum
+      - title: Leaderboard
+        url: http://wardcrew.com:8889/app/en/leaderboard
+        icon: fas fa-trophy
+        id: 6_9509_leaderboard
+      - title: Shop
+        url: http://wardcrew.com:8889/app/en/shop
+        icon: fas fa-shopping-cart
+        id: 7_9509_shop
+      - title: Gallery
+        url: http://wardcrew.com:8889/app/en/gallery
+        icon: fas fa-images
+        id: 8_9509_gallery
+      - title: Search
+        url: http://wardcrew.com:8889/app/en/search
+        icon: fas fa-search
+        id: 9_9509_search
+      - title: Wiki
+        url: http://wardcrew.com:8889/app/en/wiki
+        icon: fas fa-book
+        id: 10_9509_wiki
+      - title: New Wiki Page
+        url: http://wardcrew.com:8889/app/en/wiki/new
+        icon: fas fa-file-alt
+        id: 11_9509_newwikipage
+  - name: Nextra — User
+    icon: fas fa-user
+    displayData:
+      cols: 2
+    items:
+      - title: Dashboard
+        url: http://wardcrew.com:8889/app/en/dashboard
+        icon: fas fa-tachometer-alt
+        id: 0_9317_dashboard
+      - title: Profile
+        url: http://wardcrew.com:8889/app/en/profile
+        icon: fas fa-id-card
+        id: 1_9317_profile
+      - title: Settings
+        url: http://wardcrew.com:8889/app/en/settings
+        icon: fas fa-cog
+        id: 2_9317_settings
+      - title: Notification Settings
+        url: http://wardcrew.com:8889/app/en/profile/settings/notifications
+        icon: fas fa-bell-slash
+        id: 3_9317_notificationsettings
+      - title: Notifications
+        url: http://wardcrew.com:8889/app/en/notifications
+        icon: fas fa-bell
+        id: 4_9317_notifications
+      - title: Messages
+        url: http://wardcrew.com:8889/app/en/messages
+        icon: fas fa-envelope-open-text
+        id: 5_9317_messages
+      - title: Chat
+        url: http://wardcrew.com:8889/app/en/chat
+        icon: fas fa-comments
+        id: 6_9317_chat
+      - title: Mentions
+        url: http://wardcrew.com:8889/app/en/mentions
+        icon: fas fa-at
+        id: 7_9317_mentions
+      - title: Orders
+        url: http://wardcrew.com:8889/app/en/profile/orders
+        icon: fas fa-box
+        id: 8_9317_orders
+      - title: Shop Checkout
+        url: http://wardcrew.com:8889/app/en/shop/checkout
+        icon: fas fa-cash-register
+        id: 9_9317_shopcheckout
+  - name: Nextra — Auth
+    icon: fas fa-lock
+    items:
+      - title: Login
+        url: http://wardcrew.com:8889/app/en/login
+        icon: fas fa-sign-in-alt
+        id: 0_9304_login
+      - title: Register
+        url: http://wardcrew.com:8889/app/en/register
+        icon: fas fa-user-plus
+        id: 1_9304_register
+      - title: Forgot Password
+        url: http://wardcrew.com:8889/app/en/forgot-password
+        icon: fas fa-key
+        id: 2_9304_forgotpassword
+  - name: Nextra — Admin
+    icon: fas fa-shield-alt
+    displayData:
+      cols: 2
+    items:
+      - title: Users
+        url: http://wardcrew.com:8889/app/en/admin/users
+        icon: fas fa-users-cog
+        id: 0_9391_users
+      - title: Forum Boards
+        url: http://wardcrew.com:8889/app/en/admin/forum
+        icon: fas fa-comments
+        id: 1_9391_forumboards
+      - title: Translations
+        url: http://wardcrew.com:8889/app/en/admin/translations
+        icon: fas fa-language
+        id: 2_9391_translations
+      - title: API Keys
+        url: http://wardcrew.com:8889/app/en/admin/api-keys
+        icon: fas fa-code
+        id: 3_9391_apikeys
+      - title: Email
+        url: http://wardcrew.com:8889/app/en/admin/email
+        icon: fas fa-envelope
+        id: 4_9391_email
+      - title: Environment
+        url: http://wardcrew.com:8889/app/en/admin/env
+        icon: fas fa-sliders-h
+        id: 5_9391_environment
+      - title: Debug Panel
+        url: http://wardcrew.com:8889/app/en/admin/debug
+        icon: fas fa-bug
+        id: 6_9391_debugpanel
+  - name: BusinessPlanner — Core
+    icon: fas fa-briefcase
+    displayData:
+      cols: 2
+    items:
+      - title: Home
+        url: https://business.wardcrew.com/app/en
+        icon: fas fa-home
+        id: 0_10233_home
+      - title: Dashboard
+        url: https://business.wardcrew.com/app/en/dashboard
+        icon: fas fa-tachometer-alt
+        id: 1_10233_dashboard
+      - title: Planner
+        url: https://business.wardcrew.com/app/en/planner
+        icon: fas fa-calendar-alt
+        id: 2_10233_planner
+      - title: Feed
+        url: https://business.wardcrew.com/app/en/feed
+        icon: fas fa-stream
+        id: 3_10233_feed
+      - title: Notifications
+        url: https://business.wardcrew.com/app/en/notifications
+        icon: fas fa-bell
+        id: 4_10233_notifications
+      - title: Profile
+        url: https://business.wardcrew.com/app/en/profile
+        icon: fas fa-id-card
+        id: 5_10233_profile
+      - title: Settings
+        url: https://business.wardcrew.com/app/en/settings
+        icon: fas fa-cog
+        id: 6_10233_settings
+      - title: Search
+        url: https://business.wardcrew.com/app/en/search
+        icon: fas fa-search
+        id: 7_10233_search
+      - title: AI Docs
+        url: https://business.wardcrew.com/app/en/ai-docs
+        icon: fas fa-robot
+        id: 8_10233_aidocs
+      - title: Knowledge
+        url: https://business.wardcrew.com/app/en/knowledge
+        icon: fas fa-brain
+        id: 9_10233_knowledge
+      - title: Leaderboard
+        url: https://business.wardcrew.com/app/en/leaderboard
+        icon: fas fa-trophy
+        id: 10_10233_leaderboard
+      - title: Badges
+        url: https://business.wardcrew.com/app/en/badges
+        icon: fas fa-medal
+        id: 11_10233_badges
+  - name: BusinessPlanner — Financials
+    icon: fas fa-chart-line
+    displayData:
+      cols: 2
+    items:
+      - title: Financials
+        url: https://business.wardcrew.com/app/en/financials
+        icon: fas fa-pound-sign
+        id: 0_10856_financials
+      - title: Finance Dashboard
+        url: https://business.wardcrew.com/app/en/financials/dashboard
+        icon: fas fa-tachometer-alt
+        id: 1_10856_financedashboard
+      - title: Revenue
+        url: https://business.wardcrew.com/app/en/financials/revenue
+        icon: fas fa-chart-bar
+        id: 2_10856_revenue
+      - title: Burn Rate
+        url: https://business.wardcrew.com/app/en/financials/burn
+        icon: fas fa-fire
+        id: 3_10856_burnrate
+      - title: Projections
+        url: https://business.wardcrew.com/app/en/financials/projections
+        icon: fas fa-chart-area
+        id: 4_10856_projections
+      - title: Pricing
+        url: https://business.wardcrew.com/app/en/financials/pricing
+        icon: fas fa-tags
+        id: 5_10856_pricing
+      - title: Financial Health
+        url: https://business.wardcrew.com/app/en/financials/health
+        icon: fas fa-heartbeat
+        id: 6_10856_financialhealth
+      - title: Paths
+        url: https://business.wardcrew.com/app/en/financials/paths
+        icon: fas fa-road
+        id: 7_10856_paths
+      - title: Unit Economics
+        url: https://business.wardcrew.com/app/en/financials/unit-economics
+        icon: fas fa-balance-scale
+        id: 8_10856_uniteconomics
+      - title: Hypotheses
+        url: https://business.wardcrew.com/app/en/financials/hypotheses
+        icon: fas fa-flask
+        id: 9_10856_hypotheses
+      - title: Kill Criteria
+        url: https://business.wardcrew.com/app/en/financials/kill-criteria
+        icon: fas fa-skull
+        id: 10_10856_killcriteria
+      - title: Accounting
+        url: https://business.wardcrew.com/app/en/accounting
+        icon: fas fa-calculator
+        id: 11_10856_accounting
+  - name: BusinessPlanner — Strategy
+    icon: fas fa-chess
+    displayData:
+      cols: 2
+    items:
+      - title: Market Research
+        url: https://business.wardcrew.com/app/en/market-research
+        icon: fas fa-microscope
+        id: 0_10691_marketresearch
+      - title: Business Canvas
+        url: https://business.wardcrew.com/app/en/market-research/canvas
+        icon: fas fa-th
+        id: 1_10691_businesscanvas
+      - title: TAM Analysis
+        url: https://business.wardcrew.com/app/en/market-research/tam
+        icon: fas fa-expand-arrows-alt
+        id: 2_10691_tamanalysis
+      - title: Competitors
+        url: https://business.wardcrew.com/app/en/market-research/competitors
+        icon: fas fa-chess-knight
+        id: 3_10691_competitors
+      - title: Discovery
+        url: https://business.wardcrew.com/app/en/market-research/discovery
+        icon: fas fa-binoculars
+        id: 4_10691_discovery
+      - title: Personas
+        url: https://business.wardcrew.com/app/en/market-research/personas
+        icon: fas fa-users
+        id: 5_10691_personas
+      - title: Milestones
+        url: https://business.wardcrew.com/app/en/milestones
+        icon: fas fa-flag-checkered
+        id: 6_10691_milestones
+      - title: Decisions
+        url: https://business.wardcrew.com/app/en/decisions
+        icon: fas fa-code-branch
+        id: 7_10691_decisions
+      - title: Hoshin Kanri
+        url: https://business.wardcrew.com/app/en/hoshin
+        icon: fas fa-bullseye
+        id: 8_10691_hoshinkanri
+      - title: PDCA
+        url: https://business.wardcrew.com/app/en/pdca
+        icon: fas fa-sync-alt
+        id: 9_10691_pdca
+      - title: Pivots
+        url: https://business.wardcrew.com/app/en/pivots
+        icon: fas fa-redo
+        id: 10_10691_pivots
+      - title: Scoping
+        url: https://business.wardcrew.com/app/en/scoping
+        icon: fas fa-ruler-combined
+        id: 11_10691_scoping
+      - title: Risk Assessment
+        url: https://business.wardcrew.com/app/en/risk-assessment
+        icon: fas fa-exclamation-triangle
+        id: 12_10691_riskassessment
+      - title: Risk Report
+        url: https://business.wardcrew.com/app/en/risk-report
+        icon: fas fa-file-exclamation
+        id: 13_10691_riskreport
+      - title: OKR
+        url: https://business.wardcrew.com/app/en/okr
+        icon: fas fa-crosshairs
+        id: 14_10691_okr
+      - title: KPI
+        url: https://business.wardcrew.com/app/en/kpi
+        icon: fas fa-tachometer-alt
+        id: 15_10691_kpi
+  - name: BusinessPlanner — Business
+    icon: fas fa-building
+    displayData:
+      cols: 2
+    items:
+      - title: Companies
+        url: https://business.wardcrew.com/app/en/companies
+        icon: fas fa-city
+        id: 0_10684_companies
+      - title: Accelerators
+        url: https://business.wardcrew.com/app/en/accelerators
+        icon: fas fa-rocket
+        id: 1_10684_accelerators
+      - title: Launch
+        url: https://business.wardcrew.com/app/en/launch
+        icon: fas fa-paper-plane
+        id: 2_10684_launch
+      - title: Startup Compare
+        url: https://business.wardcrew.com/app/en/startup-compare
+        icon: fas fa-balance-scale-right
+        id: 3_10684_startupcompare
+      - title: Resources
+        url: https://business.wardcrew.com/app/en/resources
+        icon: fas fa-folder-open
+        id: 4_10684_resources
+      - title: Community
+        url: https://business.wardcrew.com/app/en/community
+        icon: fas fa-users
+        id: 5_10684_community
+      - title: Channels
+        url: https://business.wardcrew.com/app/en/channels
+        icon: fas fa-hashtag
+        id: 6_10684_channels
+      - title: Review
+        url: https://business.wardcrew.com/app/en/review
+        icon: fas fa-star-half-alt
+        id: 7_10684_review
+  - name: BusinessPlanner — Admin & Auth
+    icon: fas fa-shield-alt
+    displayData:
+      cols: 2
+    items:
+      - title: Admin
+        url: https://business.wardcrew.com
+        id: 0_10833_admin
+  - name: Ham Radio — Public
+    icon: fas fa-broadcast-tower
+    displayData:
+      cols: 2
+    items:
+      - title: Home
+        url: https://hamradio.wardcrew.com/en
+        icon: fas fa-home
+        id: 0_1100_hr_home
+      - title: Learn
+        url: https://hamradio.wardcrew.com/en/learn
+        icon: fas fa-graduation-cap
+        id: 1_1100_hr_learn
+      - title: Quiz
+        url: https://hamradio.wardcrew.com/en/quiz
+        icon: fas fa-question-circle
+        id: 2_1100_hr_quiz
+      - title: Progress
+        url: https://hamradio.wardcrew.com/en/progress
+        icon: fas fa-chart-line
+        id: 3_1100_hr_progress
+      - title: About
+        url: https://hamradio.wardcrew.com/en/about
+        icon: fas fa-info-circle
+        id: 4_1100_hr_about
+      - title: Bookmarks
+        url: https://hamradio.wardcrew.com/en/bookmarks
+        icon: fas fa-bookmark
+        id: 5_1100_hr_bookmarks
+      - title: Login
+        url: https://hamradio.wardcrew.com/en/login
+        icon: fas fa-sign-in-alt
+        id: 6_1100_hr_login
+      - title: Register
+        url: https://hamradio.wardcrew.com/en/register
+        icon: fas fa-user-plus
+        id: 7_1100_hr_register
+  - name: Ham Radio — Admin
+    icon: fas fa-shield-alt
+    displayData:
+      cols: 2
+    items:
+      - title: Admin
+        url: https://hamradio.wardcrew.com/en/admin
+        icon: fas fa-shield-alt
+        id: 0_1101_hra_admin
+      - title: Questions
+        url: https://hamradio.wardcrew.com/en/admin/questions
+        icon: fas fa-question
+        id: 1_1101_hra_questions
+      - title: Topics
+        url: https://hamradio.wardcrew.com/en/admin/topics
+        icon: fas fa-list
+        id: 2_1101_hra_topics
+      - title: Users
+        url: https://hamradio.wardcrew.com/en/admin/users
+        icon: fas fa-users
+        id: 3_1101_hra_users
+      - title: Translations
+        url: https://hamradio.wardcrew.com/en/admin/translations
+        icon: fas fa-language
+        id: 4_1101_hra_translations
+  - name: Web Dev — Guides
+    icon: fas fa-book
+    displayData:
+      cols: 2
+    items:
+      - title: Home
+        url: https://webdev.wardcrew.com/en
+        icon: fas fa-home
+        id: 0_1200_wd_home
+      - title: Getting Started
+        url: https://webdev.wardcrew.com/en/getting-started
+        icon: fas fa-rocket
+        id: 1_1200_wd_getstarted
+      - title: Fundamentals
+        url: https://webdev.wardcrew.com/en/fundamentals
+        icon: fas fa-cube
+        id: 2_1200_wd_fundamentals
+      - title: Backend Guide
+        url: https://webdev.wardcrew.com/en/backend-guide
+        icon: fas fa-server
+        id: 3_1200_wd_backend
+      - title: Docker
+        url: https://webdev.wardcrew.com/en/docker-guide
+        icon: fab fa-docker
+        id: 4_1200_wd_docker
+      - title: Best Practices
+        url: https://webdev.wardcrew.com/en/best-practices
+        icon: fas fa-star
+        id: 5_1200_wd_bestpractices
+      - title: Testing & QA
+        url: https://webdev.wardcrew.com/en/testing-qa
+        icon: fas fa-vial
+        id: 6_1200_wd_testing
+      - title: CI/CD
+        url: https://webdev.wardcrew.com/en/ci-cd-github-actions
+        icon: fas fa-infinity
+        id: 7_1200_wd_cicd
+      - title: Authentication
+        url: https://webdev.wardcrew.com/en/authentication-authorization
+        icon: fas fa-lock
+        id: 8_1200_wd_auth
+      - title: AI Development
+        url: https://webdev.wardcrew.com/en/ai-development
+        icon: fas fa-robot
+        id: 9_1200_wd_ai
+      - title: Event-Driven
+        url: https://webdev.wardcrew.com/en/event-driven-development
+        icon: fas fa-broadcast-tower
+        id: 10_1200_wd_eventdriven
+      - title: Data Architecture
+        url: https://webdev.wardcrew.com/en/data-architecture
+        icon: fas fa-database
+        id: 11_1200_wd_dataarch
+      - title: ESLint Guide
+        url: https://webdev.wardcrew.com/en/eslint-guide
+        icon: fas fa-code
+        id: 12_1200_wd_eslint
+      - title: Notification Systems
+        url: https://webdev.wardcrew.com/en/notification-systems
+        icon: fas fa-bell
+        id: 13_1200_wd_notifications
+      - title: Rapid Development
+        url: https://webdev.wardcrew.com/en/rapid-development
+        icon: fas fa-bolt
+        id: 14_1200_wd_rapid
+      - title: Writing Documentation
+        url: https://webdev.wardcrew.com/en/writing-documentation
+        icon: fas fa-pencil-alt
+        id: 15_1200_wd_writingdocs
+  - name: Web Dev — Projects
+    icon: fas fa-project-diagram
+    displayData:
+      cols: 2
+    items:
+      - title: SaaS Dashboard
+        url: https://webdev.wardcrew.com/en/saas-dashboard
+        icon: fas fa-tachometer-alt
+        id: 0_1201_wdp_saas
+      - title: Social Platform
+        url: https://webdev.wardcrew.com/en/social-platform
+        icon: fas fa-users
+        id: 1_1201_wdp_social
+      - title: eCommerce
+        url: https://webdev.wardcrew.com/en/ecommerce
+        icon: fas fa-shopping-cart
+        id: 2_1201_wdp_ecommerce
+      - title: Gaming Website
+        url: https://webdev.wardcrew.com/en/gaming-website
+        icon: fas fa-gamepad
+        id: 3_1201_wdp_gaming
+      - title: Media Site
+        url: https://webdev.wardcrew.com/en/media-site
+        icon: fas fa-photo-video
+        id: 4_1201_wdp_media
+      - title: Video Platform
+        url: https://webdev.wardcrew.com/en/video-platform
+        icon: fas fa-video
+        id: 5_1201_wdp_video
+      - title: Music Platform
+        url: https://webdev.wardcrew.com/en/music-platform
+        icon: fas fa-music
+        id: 6_1201_wdp_music
+      - title: Portfolio Blog
+        url: https://webdev.wardcrew.com/en/portfolio-blog
+        icon: fas fa-palette
+        id: 7_1201_wdp_portfolio
+      - title: Personal Homepage
+        url: https://webdev.wardcrew.com/en/personal-homepage
+        icon: fas fa-id-card
+        id: 8_1201_wdp_personal
+      - title: Online Radio
+        url: https://webdev.wardcrew.com/en/online-radio
+        icon: fas fa-broadcast-tower
+        id: 9_1201_wdp_radio
+      - title: IPTV Station
+        url: https://webdev.wardcrew.com/en/iptv-station
+        icon: fas fa-tv
+        id: 10_1201_wdp_iptv
+      - title: Gamification
+        url: https://webdev.wardcrew.com/en/gamification
+        icon: fas fa-trophy
+        id: 11_1201_wdp_gamification
+      - title: Lua Engine
+        url: https://webdev.wardcrew.com/en/lua-engine
+        icon: fas fa-terminal
+        id: 12_1201_wdp_lua
+      - title: Building This Guide
+        url: https://webdev.wardcrew.com/en/building-this-guide
+        icon: fas fa-hammer
+        id: 13_1201_wdp_buildingguide
+  - name: Web Dev — Reference
+    icon: fas fa-bookmark
+    displayData:
+      cols: 2
+    items:
+      - title: Features
+        url: https://webdev.wardcrew.com/en/features
+        icon: fas fa-list
+        id: 0_1202_wdr_features
+      - title: Examples
+        url: https://webdev.wardcrew.com/en/examples
+        icon: fas fa-file-code
+        id: 1_1202_wdr_examples
+      - title: Resources
+        url: https://webdev.wardcrew.com/en/resources
+        icon: fas fa-folder-open
+        id: 2_1202_wdr_resources
+      - title: Glossary
+        url: https://webdev.wardcrew.com/en/glossary
+        icon: fas fa-book
+        id: 3_1202_wdr_glossary
+      - title: Code Generator
+        url: https://webdev.wardcrew.com/en/code-generator
+        icon: fas fa-magic
+        id: 4_1202_wdr_codegen
+      - title: Exam
+        url: https://webdev.wardcrew.com/en/exam
+        icon: fas fa-graduation-cap
+        id: 5_1202_wdr_exam
+      - title: Progress
+        url: https://webdev.wardcrew.com/en/progress
+        icon: fas fa-chart-line
+        id: 6_1202_wdr_progress
+      - title: Bookmarks
+        url: https://webdev.wardcrew.com/en/bookmarks
+        icon: fas fa-bookmark
+        id: 7_1202_wdr_bookmarks
+  - name: Workforce — Core
+    icon: fas fa-hard-hat
+    displayData:
+      cols: 2
+    items:
+      - title: Dashboard
+        url: https://workforce.wardcrew.com
+        icon: fas fa-tachometer-alt
+        id: 0_1600_wf_dashboard
+      - title: Timesheets
+        url: https://workforce.wardcrew.com
+        icon: fas fa-clock
+        id: 1_1600_wf_timesheets
+      - title: Billing
+        url: https://workforce.wardcrew.com
+        icon: fas fa-file-invoice-dollar
+        id: 2_1600_wf_billing
+      - title: Payroll
+        url: https://workforce.wardcrew.com
+        icon: fas fa-money-check-alt
+        id: 3_1600_wf_payroll
+      - title: Compliance
+        url: https://workforce.wardcrew.com
+        icon: fas fa-clipboard-check
+        id: 4_1600_wf_compliance
+      - title: Expenses
+        url: https://workforce.wardcrew.com
+        icon: fas fa-receipt
+        id: 5_1600_wf_expenses
+      - title: Roadmap
+        url: https://workforce.wardcrew.com
+        icon: fas fa-map
+        id: 6_1600_wf_roadmap
+      - title: Reports
+        url: https://workforce.wardcrew.com
+        icon: fas fa-chart-bar
+        id: 7_1600_wf_reports
+      - title: Purchase Orders
+        url: https://workforce.wardcrew.com
+        icon: fas fa-shopping-bag
+        id: 8_1600_wf_po
+      - title: Missing Timesheets
+        url: https://workforce.wardcrew.com
+        icon: fas fa-exclamation-circle
+        id: 9_1600_wf_missing
+  - name: Workforce — Tools
+    icon: fas fa-tools
+    displayData:
+      cols: 2
+    items:
+      - title: Audit Trail
+        url: https://workforce.wardcrew.com
+        icon: fas fa-history
+        id: 0_1601_wft_audit
+      - title: Notification Rules
+        url: https://workforce.wardcrew.com
+        icon: fas fa-bell
+        id: 1_1601_wft_notifications
+      - title: Batch Import
+        url: https://workforce.wardcrew.com
+        icon: fas fa-file-import
+        id: 2_1601_wft_batchimport
+      - title: Rate Templates
+        url: https://workforce.wardcrew.com
+        icon: fas fa-dollar-sign
+        id: 3_1601_wft_ratetemplates
+      - title: Custom Reports
+        url: https://workforce.wardcrew.com
+        icon: fas fa-file-alt
+        id: 4_1601_wft_customreports
+      - title: Holiday Pay
+        url: https://workforce.wardcrew.com
+        icon: fas fa-umbrella-beach
+        id: 5_1601_wft_holidaypay
+      - title: Contract Validation
+        url: https://workforce.wardcrew.com
+        icon: fas fa-file-contract
+        id: 6_1601_wft_contracts
+      - title: Shift Patterns
+        url: https://workforce.wardcrew.com
+        icon: fas fa-calendar-alt
+        id: 7_1601_wft_shifts
+      - title: Workflow Templates
+        url: https://workforce.wardcrew.com
+        icon: fas fa-project-diagram
+        id: 8_1601_wft_workflows
+      - title: Scheduled Reports
+        url: https://workforce.wardcrew.com
+        icon: fas fa-calendar-check
+        id: 9_1601_wft_scheduled
+  - name: Strategy — Planning
+    icon: fas fa-chess
+    displayData:
+      cols: 2
+    items:
+      - title: Strategy Cards
+        url: https://strategy.wardcrew.com
+        icon: fas fa-chess
+        id: 0_1700_str_cards
+      - title: Guided Strategy
+        url: https://strategy.wardcrew.com
+        icon: fas fa-compass
+        id: 1_1700_str_guided
+      - title: Compare
+        url: https://strategy.wardcrew.com
+        icon: fas fa-balance-scale
+        id: 2_1700_str_compare
+      - title: Traceability
+        url: https://strategy.wardcrew.com
+        icon: fas fa-sitemap
+        id: 3_1700_str_trace
+      - title: Strategy to Initiative
+        url: https://strategy.wardcrew.com
+        icon: fas fa-arrows-alt-v
+        id: 4_1700_str_initiative
+      - title: Decisions & Rationale
+        url: https://strategy.wardcrew.com
+        icon: fas fa-code-branch
+        id: 5_1700_str_decisions
+      - title: Workshops
+        url: https://strategy.wardcrew.com
+        icon: fas fa-users
+        id: 6_1700_str_workshops
+  - name: Strategy — Execution
+    icon: fas fa-tasks
+    displayData:
+      cols: 2
+    items:
+      - title: Workbench
+        url: https://strategy.wardcrew.com
+        icon: fas fa-tools
+        id: 0_1701_stre_workbench
+      - title: Initiative Tracker
+        url: https://strategy.wardcrew.com
+        icon: fas fa-tasks
+        id: 1_1701_stre_tracker
+      - title: OKR Management
+        url: https://strategy.wardcrew.com
+        icon: fas fa-crosshairs
+        id: 2_1701_stre_okr
+      - title: Portfolios
+        url: https://strategy.wardcrew.com
+        icon: fas fa-folder-open
+        id: 3_1701_stre_portfolios
+      - title: Portfolio Analysis
+        url: https://strategy.wardcrew.com
+        icon: fas fa-chart-area
+        id: 4_1701_stre_analysis
+      - title: Portfolio Governance
+        url: https://strategy.wardcrew.com
+        icon: fas fa-gavel
+        id: 5_1701_stre_governance
+  - name: Strategy — Hoshin & OpEx
+    icon: fas fa-th
+    displayData:
+      cols: 2
+    items:
+      - title: X-Matrix
+        url: https://strategy.wardcrew.com
+        icon: fas fa-th
+        id: 0_1702_strh_xmatrix
+      - title: Bowling Chart
+        url: https://strategy.wardcrew.com
+        icon: fas fa-circle
+        id: 1_1702_strh_bowling
+      - title: Lean Process
+        url: https://strategy.wardcrew.com
+        icon: fas fa-recycle
+        id: 2_1702_strh_lean
+      - title: Countermeasures
+        url: https://strategy.wardcrew.com
+        icon: fas fa-shield-alt
+        id: 3_1702_strh_countermeasures
+      - title: PDCA Cycle
+        url: https://strategy.wardcrew.com
+        icon: fas fa-sync-alt
+        id: 4_1702_strh_pdca
+      - title: Multi-Region Reporting
+        url: https://strategy.wardcrew.com
+        icon: fas fa-globe
+        id: 5_1702_strh_multiregion
+  - name: Strategy — Roadmaps
+    icon: fas fa-map
+    displayData:
+      cols: 2
+    items:
+      - title: Strategic Roadmap
+        url: https://strategy.wardcrew.com
+        icon: fas fa-map
+        id: 0_1703_strr_roadmap
+      - title: Product Roadmap
+        url: https://strategy.wardcrew.com
+        icon: fas fa-rocket
+        id: 1_1703_strr_product
+  - name: Strategy — Reporting
+    icon: fas fa-chart-bar
+    displayData:
+      cols: 2
+    items:
+      - title: Executive Dashboard
+        url: https://strategy.wardcrew.com
+        icon: fas fa-tachometer-alt
+        id: 0_1704_strp_exec
+      - title: Drill-Down Reporting
+        url: https://strategy.wardcrew.com
+        icon: fas fa-chart-bar
+        id: 1_1704_strp_drilldown
+      - title: Performance Dashboard
+        url: https://strategy.wardcrew.com
+        icon: fas fa-bullseye
+        id: 2_1704_strp_performance
+      - title: KPI Scorecard
+        url: https://strategy.wardcrew.com
+        icon: fas fa-chart-line
+        id: 3_1704_strp_kpi
+      - title: Custom Scorecards
+        url: https://strategy.wardcrew.com
+        icon: fas fa-clipboard
+        id: 4_1704_strp_custom
+      - title: Financial Tracking
+        url: https://strategy.wardcrew.com
+        icon: fas fa-dollar-sign
+        id: 5_1704_strp_financial
+      - title: Automated Reports
+        url: https://strategy.wardcrew.com
+        icon: fas fa-file-alt
+        id: 6_1704_strp_automated
+  - name: Strategy — Platform
+    icon: fas fa-cog
+    displayData:
+      cols: 2
+    items:
+      - title: Getting Started
+        url: https://strategy.wardcrew.com
+        icon: fas fa-question-circle
+        id: 0_1705_strpl_onboarding
+      - title: Data Import/Export
+        url: https://strategy.wardcrew.com
+        icon: fas fa-file-import
+        id: 1_1705_strpl_data
+      - title: API & Webhooks
+        url: https://strategy.wardcrew.com
+        icon: fas fa-code
+        id: 2_1705_strpl_api
+      - title: Project Management
+        url: https://strategy.wardcrew.com
+        icon: fas fa-project-diagram
+        id: 3_1705_strpl_projects
+      - title: ERP Integration
+        url: https://strategy.wardcrew.com
+        icon: fas fa-database
+        id: 4_1705_strpl_erp
+      - title: CRM Integration
+        url: https://strategy.wardcrew.com
+        icon: fas fa-store
+        id: 5_1705_strpl_crm
+      - title: Language & Regional
+        url: https://strategy.wardcrew.com
+        icon: fas fa-language
+        id: 6_1705_strpl_language
+      - title: Access Control
+        url: https://strategy.wardcrew.com
+        icon: fas fa-shield-alt
+        id: 7_1705_strpl_rbac
+      - title: Audit Trail
+        url: https://strategy.wardcrew.com
+        icon: fas fa-history
+        id: 8_1705_strpl_audit
+  - name: Nexus Command
+    icon: fas fa-terminal
+    displayData:
+      cols: 2
+    items:
+      - title: Home
+        url: https://nexuscommand.wardcrew.com
+        icon: fas fa-home
+        id: 0_1900_nc_home
+      - title: Campaign
+        url: https://nexuscommand.wardcrew.com/campaign
+        icon: fas fa-flag
+        id: 1_1900_nc_campaign
+      - title: Multiplayer
+        url: https://nexuscommand.wardcrew.com/multiplayer
+        icon: fas fa-users
+        id: 2_1900_nc_multiplayer
+      - title: Developer
+        url: https://nexuscommand.wardcrew.com/developer
+        icon: fas fa-code
+        id: 3_1900_nc_developer
+      - title: Profile
+        url: https://nexuscommand.wardcrew.com/profile
+        icon: fas fa-id-card
+        id: 4_1900_nc_profile
+      - title: Settings
+        url: https://nexuscommand.wardcrew.com/settings
+        icon: fas fa-cog
+        id: 5_1900_nc_settings
+  - name: PyRACMS — Platform
+    icon: fas fa-globe
+    displayData:
+      cols: 2
+    items:
+      - title: Home
+        url: https://pyracms.wardcrew.com
+        icon: fas fa-home
+        id: 0_2000_pyra_home
+      - title: Search
+        url: https://pyracms.wardcrew.com/search
+        icon: fas fa-search
+        id: 1_2000_pyra_search
+      - title: Create Site
+        url: https://pyracms.wardcrew.com/create-site
+        icon: fas fa-plus-circle
+        id: 2_2000_pyra_createsite
+      - title: Login
+        url: https://pyracms.wardcrew.com/auth/login
+        icon: fas fa-sign-in-alt
+        id: 3_2000_pyra_login
+      - title: Register
+        url: https://pyracms.wardcrew.com/auth/register
+        icon: fas fa-user-plus
+        id: 4_2000_pyra_register
+  - name: PyRACMS — Super Admin
+    icon: fas fa-crown
+    displayData:
+      cols: 2
+    items:
+      - title: Super Admin
+        url: https://pyracms.wardcrew.com/super-admin
+        icon: fas fa-crown
+        id: 0_2001_pyras_superadmin
+      - title: Tenants
+        url: https://pyracms.wardcrew.com/super-admin/tenants
+        icon: fas fa-building
+        id: 1_2001_pyras_tenants
+      - title: Users
+        url: https://pyracms.wardcrew.com/super-admin/users
+        icon: fas fa-users
+        id: 2_2001_pyras_users
+      - title: Settings
+        url: https://pyracms.wardcrew.com/super-admin/settings
+        icon: fas fa-cog
+        id: 3_2001_pyras_settings
+      - title: Admin Panel
+        url: https://pyracms.wardcrew.com/admin
+        icon: fas fa-shield-alt
+        id: 4_2001_pyras_admin
+  - name: World Wide Web
+    items:
+      - title: Google
+        url: https://www.google.com
+        id: 0_1263_google
+      - title: GitHub
+        url: https://github.com/johndoe6345789
+        id: 1_1263_github
+pages: []
