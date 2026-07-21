@@ -1,21 +1,105 @@
-pageInfo:
-  title: My Docker Dashboard
-  description: All running services at a glance
-  navLinks:
-    - title: Portainer
-      path: http://rdesktop.taild98fe6.ts.net:9443
-    - title: GitLab
-      path: http://rdesktop.taild98fe6.ts.net:47291
-
 appConfig:
   theme: colorful
   layout: auto
   iconSize: medium
-  language: en
-
+  language: en-GB
+pageInfo:
+  title: WardCrew Service Hub
+  description: Public applications and private infrastructure at a glance
+  navLinks:
+    - title: CapRover
+      path: https://captain.wardcrew.com
+    - title: Jenkins
+      path: https://jenkins.wardcrew.com
 sections:
-
-  # ─── Infrastructure & DevOps ───────────────────────────────────────────────
+  - name: WardCrew Public Services
+    icon: mdi-cloud-check
+    items:
+      - title: MetaBuilder
+        description: Application building and workflow platform
+        url: https://metabuilder.wardcrew.com
+        icon: mdi-hammer-wrench
+        target: newtab
+      - title: BusinessPlanner
+        description: Business planning and collaboration suite
+        url: https://businessplanner.wardcrew.com
+        icon: mdi-briefcase-outline
+        target: newtab
+      - title: ExtraPrimary
+        description: Nextra application portal
+        url: https://nextextra.wardcrew.com
+        icon: mdi-view-dashboard-outline
+        target: newtab
+      - title: HamPrep
+        description: Foundation amateur-radio exam preparation
+        url: https://hamradio.wardcrew.com
+        icon: mdi-radio-handheld
+        target: newtab
+      - title: PyraCMS
+        description: C++ content-management platform
+        url: https://pyracms.wardcrew.com
+        icon: mdi-language-cpp
+        target: newtab
+      - title: Web Dev Guide
+        description: Interactive React web-development guide
+        url: https://webdev.wardcrew.com
+        icon: mdi-web-box
+        target: newtab
+      - title: StrategyOS
+        description: Strategy management platform
+        url: https://strategy.wardcrew.com
+        icon: mdi-strategy
+        target: newtab
+      - title: Workforce Pro
+        description: Workforce and back-office platform
+        url: https://workforce.wardcrew.com
+        icon: mdi-account-group-outline
+        target: newtab
+      - title: Nexus Command
+        description: Command and operations interface
+        url: https://nexuscommand.wardcrew.com
+        icon: mdi-console-network-outline
+        target: newtab
+      - title: WizardMerge
+        description: Intelligent merge-conflict resolution
+        url: https://wizardmerge.wardcrew.com
+        icon: mdi-source-merge
+        target: newtab
+      - title: Revolutionary Docs
+        description: Documentation viewer
+        url: https://revolutionary-docs.wardcrew.com
+        icon: mdi-book-open-page-variant-outline
+        target: newtab
+      - title: Retro React
+        description: Retro React application showcase
+        url: https://retro-react.wardcrew.com
+        icon: mdi-react
+        target: newtab
+      - title: WineJS
+        description: WineJS runtime studio
+        url: https://winejs.wardcrew.com
+        icon: mdi-glass-wine
+        target: newtab
+      - title: Drupal
+        description: Drupal content-management site
+        url: https://drupal.wardcrew.com
+        icon: hl-drupal
+        target: newtab
+      - title: Joomla
+        description: Joomla content-management site
+        url: https://joomla.wardcrew.com
+        icon: hl-joomla
+        target: newtab
+      - title: Vault
+        description: Credential vault and rotation interface
+        url: https://vault.wardcrew.com
+        icon: mdi-safe-square-outline
+        target: newtab
+      - title: Filebrowser
+        description: Managed file browser
+        url: https://filebrowser.wardcrew.com
+        icon: mdi-folder-network-outline
+        target: newtab
   - name: Infrastructure & DevOps
     icon: mdi-server
     items:
@@ -24,26 +108,25 @@ sections:
         url: http://rdesktop.taild98fe6.ts.net:9443
         icon: hl-portainer
         target: newtab
-
+        id: 0_2200_portainer
       - title: GitLab
         description: Self-hosted Git & CI/CD platform
         url: http://rdesktop.taild98fe6.ts.net:47291
         icon: hl-gitlab
         target: newtab
-
+        id: 1_2200_gitlab
       - title: Jenkins
         description: CI/CD automation server (via Nginx)
         url: http://rdesktop.taild98fe6.ts.net:8081
         icon: hl-jenkins
         target: newtab
-
+        id: 2_2200_jenkins
       - title: Jenkins (direct)
         description: Jenkins on port 8082
         url: http://rdesktop.taild98fe6.ts.net:8082
         icon: hl-jenkins
         target: newtab
-
-  # ─── CMS ───────────────────────────────────────────────────────────────────
+        id: 3_2200_jenkinsdirect
   - name: CMS
     icon: mdi-web
     items:
@@ -52,14 +135,16 @@ sections:
         url: http://rdesktop.taild98fe6.ts.net:28080
         icon: hl-drupal
         target: newtab
-
+        id: 0_227_drupal
       - title: Joomla
         description: Joomla CMS
         url: http://rdesktop.taild98fe6.ts.net:18080
         icon: hl-joomla
         target: newtab
-
-  # ─── MetaBuilder — Apps ────────────────────────────────────────────────────
+        id: 1_227_joomla
+      - title: Filebrowser
+        url: https://filebrowser.wardcrew.com
+        id: temp_Filebrowser
   - name: MetaBuilder — Apps
     icon: mdi-application
     items:
@@ -68,98 +153,97 @@ sections:
         url: http://rdesktop.taild98fe6.ts.net:3008
         icon: mdi-application-brackets
         target: newtab
-
+        id: 0_9782_frontendapp
       - title: Code Generator
         description: MetaBuilder code generation tool
         url: http://rdesktop.taild98fe6.ts.net:3022
         icon: mdi-code-braces
         target: newtab
-
+        id: 1_9782_codegenerator
       - title: Pastebin
         description: MetaBuilder pastebin
         url: http://rdesktop.taild98fe6.ts.net:3003
         icon: mdi-clipboard-text
         target: newtab
-
+        id: 2_9782_pastebin
       - title: Email Client
         description: MetaBuilder email client
         url: http://rdesktop.taild98fe6.ts.net:3005
         icon: mdi-email
         target: newtab
-
+        id: 3_9782_emailclient
       - title: DBAL Frontend
         description: Database abstraction layer UI
         url: http://rdesktop.taild98fe6.ts.net:3015
         icon: mdi-database-edit
         target: newtab
-
+        id: 4_9782_dbalfrontend
       - title: Workflow UI
         description: MetaBuilder workflow editor
         url: http://rdesktop.taild98fe6.ts.net:3021
         icon: mdi-workflow
         target: newtab
-
+        id: 5_9782_workflowui
       - title: Postgres Dashboard
         description: MetaBuilder PostgreSQL dashboard
         url: http://rdesktop.taild98fe6.ts.net:3004
         icon: hl-pgadmin
         target: newtab
-
+        id: 6_9782_postgresdashboard
       - title: Package Repo
         description: MetaBuilder package repository
         url: http://rdesktop.taild98fe6.ts.net:3011
         icon: mdi-package-variant
         target: newtab
-
+        id: 7_9782_packagerepo
       - title: Docker Terminal
         description: MetaBuilder web-based Docker terminal
         url: http://rdesktop.taild98fe6.ts.net:3010
         icon: mdi-console
         target: newtab
-
+        id: 8_9782_dockerterminal
       - title: Exploded Diagrams
         description: MetaBuilder exploded diagrams viewer
         url: http://rdesktop.taild98fe6.ts.net:3026
         icon: mdi-vector-combine
         target: newtab
-
+        id: 9_9782_explodeddiagrams
       - title: Repo Forge
         description: MetaBuilder repository forge
         url: http://rdesktop.taild98fe6.ts.net:3032
         icon: mdi-source-repository
         target: newtab
-
+        id: 10_9782_repoforge
       - title: Caprovore Forge
         description: MetaBuilder CapRover-style forge
         url: http://rdesktop.taild98fe6.ts.net:3033
         icon: mdi-rocket-launch
         target: newtab
-
+        id: 11_9782_caprovoreforge
       - title: Nginx Gateway
         description: MetaBuilder Nginx reverse proxy
         url: http://rdesktop.taild98fe6.ts.net:8900
         icon: hl-nginx
         target: newtab
-
+        id: 12_9782_nginxgateway
       - title: Email Service
         description: MetaBuilder email microservice
         url: http://rdesktop.taild98fe6.ts.net:8501
         icon: mdi-email-fast
         target: newtab
-
+        id: 13_9782_emailservice
       - title: SMTP Relay UI
         description: MetaBuilder SMTP relay web UI
         url: http://rdesktop.taild98fe6.ts.net:8026
         icon: mdi-email-send
         target: newtab
-
+        id: 14_9782_smtprelayui
       - title: DBAL API
         description: MetaBuilder database abstraction layer API
         url: http://rdesktop.taild98fe6.ts.net:8085
         icon: mdi-database-cog
         target: newtab
-
-  # ─── MetaBuilder — Databases & Monitoring ──────────────────────────────────
+        id: 15_9782_dbalapi
   - name: MetaBuilder — Databases & Monitoring
     icon: mdi-database
     items:
@@ -168,38 +252,37 @@ sections:
         url: http://rdesktop.taild98fe6.ts.net:8087
         icon: hl-phpmyadmin
         target: newtab
-
+        id: 0_11446_phpmyadmin
       - title: Mongo Express
         description: MongoDB web admin (MetaBuilder)
         url: http://rdesktop.taild98fe6.ts.net:8086
         icon: hl-mongodb
         target: newtab
-
+        id: 1_11446_mongoexpress
       - title: RedisInsight
         description: Redis GUI (MetaBuilder)
         url: http://rdesktop.taild98fe6.ts.net:8083
         icon: hl-redis
         target: newtab
-
+        id: 2_11446_redisinsight
       - title: Kibana
         description: Elasticsearch visualisation (MetaBuilder)
         url: http://rdesktop.taild98fe6.ts.net:5601
         icon: hl-kibana
         target: newtab
-
+        id: 3_11446_kibana
       - title: Elasticsearch
         description: Search & analytics engine (MetaBuilder)
         url: http://rdesktop.taild98fe6.ts.net:9201
         icon: hl-elasticsearch
         target: newtab
-
+        id: 4_11446_elasticsearch
       - title: Verdaccio
         description: Private npm registry (MetaBuilder)
         url: http://rdesktop.taild98fe6.ts.net:4874
         icon: hl-verdaccio
         target: newtab
-
-  # ─── Next Extra Primary — Frontend ─────────────────────────────────────────
+        id: 5_11446_verdaccio
   - name: Next Extra Primary — Frontend
     icon: mdi-monitor-dashboard
     items:
@@ -208,86 +291,85 @@ sections:
         url: http://rdesktop.taild98fe6.ts.net:8889
         icon: mdi-view-dashboard
         target: newtab
-
+        id: 0_10843_portal
       - title: Frontend
         description: Primary frontend application
         url: http://rdesktop.taild98fe6.ts.net:3100
         icon: mdi-application-brackets
         target: newtab
-
+        id: 1_10843_frontend
       - title: SSO
         description: Single sign-on portal
         url: http://rdesktop.taild98fe6.ts.net:3099
         icon: mdi-shield-key
         target: newtab
-
+        id: 2_10843_sso
       - title: Email Client
         description: Web email client
         url: http://rdesktop.taild98fe6.ts.net:8025
         icon: mdi-email
         target: newtab
-
+        id: 3_10843_emailclient
       - title: Analytics
         description: Analytics dashboard
         url: http://rdesktop.taild98fe6.ts.net:9017
         icon: mdi-chart-line
         target: newtab
-
+        id: 4_10843_analytics
       - title: Status Page
         description: Service status page
         url: http://rdesktop.taild98fe6.ts.net:9014
         icon: mdi-check-circle
         target: newtab
-
+        id: 5_10843_statuspage
       - title: Gallery
         description: Media gallery
         url: http://rdesktop.taild98fe6.ts.net:9016
         icon: mdi-image-multiple
         target: newtab
-
+        id: 6_10843_gallery
       - title: Social Admin
         description: Social features admin panel
         url: http://rdesktop.taild98fe6.ts.net:9018
         icon: mdi-account-group
         target: newtab
-
+        id: 7_10843_socialadmin
       - title: Forum
         description: Community forum
         url: http://rdesktop.taild98fe6.ts.net:9020
         icon: mdi-forum
         target: newtab
-
+        id: 8_10843_forum
       - title: Feature Flags
         description: Feature flag management
         url: http://rdesktop.taild98fe6.ts.net:9019
         icon: mdi-flag
         target: newtab
-
+        id: 9_10843_featureflags
       - title: Alerts
         description: Alert management UI
         url: http://rdesktop.taild98fe6.ts.net:8999
         icon: mdi-bell-alert
         target: newtab
-
+        id: 10_10843_alerts
       - title: Package Repo Frontend
         description: Package repository UI
         url: http://rdesktop.taild98fe6.ts.net:5051
         icon: mdi-package-variant-closed
         target: newtab
-
+        id: 11_10843_packagerepofrontend
       - title: pgAdmin Frontend
         description: PostgreSQL admin frontend
         url: http://rdesktop.taild98fe6.ts.net:3002
         icon: hl-pgadmin
         target: newtab
-
+        id: 12_10843_pgadminfrontend
       - title: S3 Frontend
         description: S3-compatible storage UI
         url: http://rdesktop.taild98fe6.ts.net:3001
         icon: mdi-cloud-upload
         target: newtab
-
-  # ─── Next Extra Primary — APIs & Backend ───────────────────────────────────
+        id: 13_10843_sfrontend
   - name: Next Extra Primary — APIs & Backend
     icon: mdi-api
     items:
@@ -296,62 +378,61 @@ sections:
         url: http://rdesktop.taild98fe6.ts.net:8080
         icon: mdi-server-network
         target: newtab
-
+        id: 0_11126_mainbackendapi
       - title: Email Client API
         description: Email client backend API
         url: http://rdesktop.taild98fe6.ts.net:8500
         icon: mdi-email-fast-outline
         target: newtab
-
+        id: 1_11126_emailclientapi
       - title: Package Repo API
         description: Package repo backend API
         url: http://rdesktop.taild98fe6.ts.net:5050
         icon: mdi-package-variant
         target: newtab
-
+        id: 2_11126_packagerepoapi
       - title: pgAdmin Backend
         description: PostgreSQL admin backend
         url: http://rdesktop.taild98fe6.ts.net:5060
         icon: hl-pgadmin
         target: newtab
-
+        id: 3_11126_pgadminbackend
       - title: Keycloak
         description: Identity & access management
         url: http://rdesktop.taild98fe6.ts.net:8088
         icon: hl-keycloak
         target: newtab
-
+        id: 4_11126_keycloak
       - title: S3 Storage (MinIO)
         description: S3-compatible object storage
         url: http://rdesktop.taild98fe6.ts.net:9000
         icon: hl-minio
         target: newtab
-
+        id: 5_11126_sstorageminio
       - title: Verdaccio
         description: Private npm registry
         url: http://rdesktop.taild98fe6.ts.net:4873
         icon: hl-verdaccio
         target: newtab
-
+        id: 6_11126_verdaccio
       - title: Elasticsearch
         description: Search engine
         url: http://rdesktop.taild98fe6.ts.net:9200
         icon: hl-elasticsearch
         target: newtab
-
+        id: 7_11126_elasticsearch
       - title: Kafka
         description: Event streaming platform
         url: http://rdesktop.taild98fe6.ts.net:9092
         icon: hl-apache-kafka
         target: newtab
-
+        id: 8_11126_kafka
       - title: Nextra Comments API
         description: Comments microservice
         url: http://rdesktop.taild98fe6.ts.net:9004
         icon: mdi-comment-multiple
         target: newtab
-
-  # ─── Next Extra Primary — Nextra Modules ───────────────────────────────────
+        id: 9_11126_nextracommentsapi
   - name: Next Extra Primary — Nextra Modules
     icon: mdi-puzzle
     items:
@@ -360,80 +441,79 @@ sections:
         url: http://rdesktop.taild98fe6.ts.net:9001
         icon: mdi-shield-account
         target: newtab
-
+        id: 0_11398_nextraauth
       - title: Nextra Social
         description: Social features microservice
         url: http://rdesktop.taild98fe6.ts.net:9002
         icon: mdi-account-group
         target: newtab
-
+        id: 1_11398_nextrasocial
       - title: Nextra Notifications
         description: Notification microservice
         url: http://rdesktop.taild98fe6.ts.net:9003
         icon: mdi-bell
         target: newtab
-
+        id: 2_11398_nextranotifications
       - title: Nextra Analytics
         description: Analytics microservice
         url: http://rdesktop.taild98fe6.ts.net:9005
         icon: mdi-chart-bar
         target: newtab
-
+        id: 3_11398_nextraanalytics
       - title: Nextra Gamification
         description: Gamification microservice
         url: http://rdesktop.taild98fe6.ts.net:9006
         icon: mdi-gamepad-variant
         target: newtab
-
+        id: 4_11398_nextragamification
       - title: Nextra Content
         description: Content management microservice
         url: http://rdesktop.taild98fe6.ts.net:9007
         icon: mdi-file-document
         target: newtab
-
+        id: 5_11398_nextracontent
       - title: Nextra Media
         description: Media handling microservice
         url: http://rdesktop.taild98fe6.ts.net:9008
         icon: mdi-video
         target: newtab
-
+        id: 6_11398_nextramedia
       - title: Nextra Search
         description: Search microservice
         url: http://rdesktop.taild98fe6.ts.net:9009
         icon: mdi-magnify
         target: newtab
-
+        id: 7_11398_nextrasearch
       - title: Nextra Infra
         description: Infrastructure microservice
         url: http://rdesktop.taild98fe6.ts.net:9010
         icon: mdi-server
         target: newtab
-
+        id: 8_11398_nextrainfra
       - title: Nextra AI
         description: AI/ML microservice
         url: http://rdesktop.taild98fe6.ts.net:9011
         icon: mdi-robot
         target: newtab
-
+        id: 9_11398_nextraai
       - title: Nextra Platform
         description: Platform microservice
         url: http://rdesktop.taild98fe6.ts.net:9012
         icon: mdi-layers
         target: newtab
-
+        id: 10_11398_nextraplatform
       - title: Nextra Commerce
         description: E-commerce microservice
         url: http://rdesktop.taild98fe6.ts.net:9013
         icon: mdi-shopping
         target: newtab
-
+        id: 11_11398_nextracommerce
       - title: Nextra Infra (9010)
         description: Infrastructure API
         url: http://rdesktop.taild98fe6.ts.net:9010
         icon: mdi-server-network
         target: newtab
-
-  # ─── Media & Streaming ─────────────────────────────────────────────────────
+        id: 12_11398_nextrainfra
   - name: Media & Streaming
     icon: mdi-video-wireless
     items:
@@ -442,9 +522,11 @@ sections:
         url: http://rdesktop.taild98fe6.ts.net:8888
         icon: mdi-video-box
         target: newtab
-
+        id: 0_1520_mediamtxhttp
       - title: MediaMTX API
         description: MediaMTX REST API
         url: http://rdesktop.taild98fe6.ts.net:9997
         icon: mdi-api
         target: newtab
+        id: 1_1520_mediamtxapi
+pages: []
