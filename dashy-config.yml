@@ -110,7 +110,7 @@ sections:
     items:
       - title: Portainer
         description: Docker container management UI
-        url: http://rdesktop.taild98fe6.ts.net:9443
+        url: https://rdesktop.taild98fe6.ts.net:9443
         icon: hl-portainer
         target: newtab
         id: 0_2200_portainer
