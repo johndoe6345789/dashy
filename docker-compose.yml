@@ -20,3 +20,15 @@ services:
       timeout: 10s
       retries: 3
       start_period: 40s
+    networks:
+      - default
+      # The CapRover ingress shell (srv-captain--dashy-rev) proxies to
+      # `http://dashy:8080` by container name via Docker's embedded DNS,
+      # which only resolves within a shared network. Compose's own
+      # project-default network isn't enough -- must also join CapRover's
+      # overlay network, or the ingress gets a 502 after every recreate.
+      - captain-overlay-network
+
+networks:
+  captain-overlay-network:
+    external: true
