@@ -5,7 +5,12 @@ services:
     ports:
       - "4000:8080"
     volumes:
-      - ./dashy-config.yml:/app/user-data/conf.yml
+      # Absolute host path, not relative: this compose file gets invoked by
+      # DeployButton's backend container (via the shared docker.sock), whose
+      # cwd is /srv/repos/dashy -- but the real docker daemon runs on the
+      # host and needs the actual host path for the bind-mount syscall, not
+      # the calling container's view of it.
+      - /home/r/Documents/GitHub/dashy/dashy-config.yml:/app/user-data/conf.yml
     environment:
       - NODE_ENV=production
     restart: unless-stopped
