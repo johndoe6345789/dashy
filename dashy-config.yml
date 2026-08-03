@@ -100,6 +100,11 @@ sections:
         url: https://filebrowser.wardcrew.com
         icon: mdi-folder-network-outline
         target: newtab
+      - title: DeployButton
+        description: One-click deploy dashboard for CapRover-hosted apps
+        url: https://deploybutton.wardcrew.com
+        icon: mdi-rocket-launch-outline
+        target: newtab
   - name: Infrastructure & DevOps
     icon: mdi-server
     items:
@@ -127,6 +132,12 @@ sections:
         icon: hl-jenkins
         target: newtab
         id: 3_2200_jenkinsdirect
+      - title: CapRover
+        description: PaaS deployment and container orchestration
+        url: https://captain.wardcrew.com
+        icon: hl-caprover
+        target: newtab
+        id: 4_2200_caprover
   - name: CMS
     icon: mdi-web
     items:
