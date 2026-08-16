@@ -1,0 +1,37 @@
+# This repo is config only (dashy is a third-party image, lissy93/dashy;
+# nothing here is built) -- so "build" is validating the YAML that config
+# actually is.
+name: ci
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  data:
+    name: Validate YAML
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Parse every YAML file
+        run: |
+          fail=0
+          while IFS= read -r -d '' f; do
+            python3 -c "import yaml,sys; yaml.safe_load(open(sys.argv[1]))" "$f" \
+              || { echo "invalid YAML: $f"; fail=1; }
+          done < <(find . \( -name '*.yml' -o -name '*.yaml' \) -not -path './.git/*' -print0)
+          exit $fail
+
+      # docker-compose.yml references an external network (CapRover's
+      # overlay) that only exists on the deploy host, so `docker compose
+      # config` would fail here for a reason unrelated to file correctness --
+      # yaml.safe_load above is the right depth of check for this repo.
