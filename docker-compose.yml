@@ -1,34 +1,8 @@
+# Local preview only: `docker compose up --build`, then open
+# http://localhost:4000. Production is the CapRover app `dashy`, built from
+# the Dockerfile via captain-definition.
 services:
   dashy:
-    image: lissy93/dashy:latest
-    container_name: dashy
+    build: .
     ports:
       - "4000:8080"
-    volumes:
-      # Absolute host path, not relative: this compose file gets invoked by
-      # DeployButton's backend container (via the shared docker.sock), whose
-      # cwd is /srv/repos/dashy -- but the real docker daemon runs on the
-      # host and needs the actual host path for the bind-mount syscall, not
-      # the calling container's view of it.
-      - /home/r/Documents/GitHub/dashy/dashy-config.yml:/app/user-data/conf.yml
-    environment:
-      - NODE_ENV=production
-    restart: unless-stopped
-    healthcheck:
-      test: ["CMD", "node", "/app/services/healthcheck"]
-      interval: 1m30s
-      timeout: 10s
-      retries: 3
-      start_period: 40s
-    networks:
-      - default
-      # The CapRover ingress shell (srv-captain--dashy-rev) proxies to
-      # `http://dashy:8080` by container name via Docker's embedded DNS,
-      # which only resolves within a shared network. Compose's own
-      # project-default network isn't enough -- must also join CapRover's
-      # overlay network, or the ingress gets a 502 after every recreate.
-      - captain-overlay-network
-
-networks:
-  captain-overlay-network:
-    external: true

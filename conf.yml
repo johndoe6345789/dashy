@@ -1,0 +1,201 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/Lissy93/dashy/master/src/utils/config/ConfigSchema.json
+# wardcrew.com homepage. Baked into the image by the Dockerfile and served
+# publicly (including as /conf.yml), so only public links belong here --
+# no Tailscale hostnames, internal ports or credentials.
+---
+pageInfo:
+  title: wardcrew
+  description: Apps, admin and everyday links
+  navLinks:
+    - title: CapRover
+      path: https://captain.wardcrew.com
+    - title: GitHub
+      path: https://github.com/johndoe6345789
+
+appConfig:
+  theme: colorful
+  layout: auto
+  iconSize: large
+  language: en-GB
+  defaultOpeningMethod: newtab
+  statusCheckInterval: 300
+  # The config is baked into the image; stop visitors saving edits to disk.
+  preventWriteToDisk: true
+
+pages:
+  - name: App Guide
+    path: apps.yml
+
+sections:
+  # statusCheck is set per item on our own services only -- big external
+  # sites often answer bot requests with 403s, which would show false reds.
+  - name: WardCrew Apps
+    icon: mdi-cloud-check
+    items:
+      - title: MetaBuilder
+        description: Application building and workflow platform
+        url: https://metabuilder.wardcrew.com
+        icon: mdi-hammer-wrench
+        statusCheck: true
+      - title: BusinessPlanner
+        description: Business planning and collaboration suite
+        url: https://business.wardcrew.com
+        icon: mdi-briefcase-outline
+        statusCheck: true
+      - title: Nextra
+        description: Community portal -- blog, forum, wiki, shop
+        url: https://nextextra.wardcrew.com
+        icon: mdi-view-dashboard-outline
+        statusCheck: true
+      - title: HamPrep
+        description: Foundation amateur-radio exam preparation
+        url: https://hamradio.wardcrew.com
+        icon: mdi-radio-handheld
+        statusCheck: true
+      - title: Web Dev Guide
+        description: Interactive React web-development guide
+        url: https://webdev.wardcrew.com
+        icon: mdi-web-box
+        statusCheck: true
+      - title: StrategyOS
+        description: Strategy management platform
+        url: https://strategy.wardcrew.com
+        icon: mdi-strategy
+        statusCheck: true
+      - title: Workforce Pro
+        description: Workforce and back-office platform
+        url: https://workforce.wardcrew.com
+        icon: mdi-account-group-outline
+        statusCheck: true
+      - title: PyraCMS
+        description: C++ content-management platform
+        url: https://pyracms.wardcrew.com
+        icon: mdi-language-cpp
+        statusCheck: true
+      - title: Nexus Command
+        description: Command and operations interface
+        url: https://nexuscommand.wardcrew.com
+        icon: mdi-console-network-outline
+        statusCheck: true
+      - title: WizardMerge
+        description: Intelligent merge-conflict resolution
+        url: https://wizardmerge.wardcrew.com
+        icon: mdi-source-merge
+        statusCheck: true
+      - title: WineJS
+        description: WineJS runtime studio
+        url: https://winejs.wardcrew.com
+        icon: mdi-glass-wine
+        statusCheck: true
+      - title: Retro React
+        description: Retro React application showcase
+        url: https://retro-react.wardcrew.com
+        icon: mdi-react
+        statusCheck: true
+      - title: Revolutionary Docs
+        description: Documentation viewer
+        url: https://revolutionary-docs.wardcrew.com
+        icon: mdi-book-open-page-variant-outline
+        statusCheck: true
+      - title: Drupal
+        description: Drupal content-management site
+        url: https://drupal.wardcrew.com
+        icon: hl-drupal
+        statusCheck: true
+      - title: Joomla
+        description: Joomla content-management site
+        url: https://joomla.wardcrew.com
+        icon: hl-joomla
+        statusCheck: true
+
+  - name: Admin
+    icon: mdi-shield-crown-outline
+    items:
+      - title: CapRover
+        description: PaaS deployment panel
+        url: https://captain.wardcrew.com
+        icon: hl-caprover
+        statusCheck: true
+      - title: Vault
+        description: Credential vault and rotation
+        url: https://vault.wardcrew.com
+        icon: mdi-safe-square-outline
+        statusCheck: true
+      - title: Jenkins
+        description: CI/CD automation server
+        url: https://jenkins.wardcrew.com
+        icon: hl-jenkins
+        statusCheck: true
+      - title: Filebrowser
+        description: Managed file browser
+        url: https://filebrowser.wardcrew.com
+        icon: hl-filebrowser
+        statusCheck: true
+      - title: DeployButton
+        description: One-click deploys for CapRover apps
+        url: https://deploybutton.wardcrew.com
+        icon: mdi-rocket-launch-outline
+        statusCheck: true
+      - title: Cloudflare
+        description: DNS for wardcrew.com
+        url: https://dash.cloudflare.com
+        icon: si-cloudflare
+        color: '#f38020'
+      - title: Cloudflare Tunnels
+        description: Zero Trust → Networks → Tunnels
+        url: https://one.dash.cloudflare.com
+        icon: mdi-transit-connection-variant
+        color: '#f38020'
+      - title: Tailscale
+        description: Tailnet admin console
+        url: https://login.tailscale.com/admin/machines
+        icon: si-tailscale
+
+  - name: Everyday
+    icon: fas fa-star
+    items:
+      - { title: Google, url: https://www.google.com, icon: favicon }
+      - { title: Gmail, url: https://mail.google.com, icon: favicon }
+      - { title: Google Drive, url: https://drive.google.com, icon: favicon }
+      - { title: Google Calendar, url: https://calendar.google.com, icon: favicon }
+      - { title: Google Maps, url: https://maps.google.com, icon: favicon }
+      - { title: Claude, url: https://claude.ai, icon: favicon }
+
+  - name: Media
+    icon: fas fa-play
+    items:
+      - { title: YouTube, url: https://www.youtube.com, icon: favicon }
+      - { title: Netflix, url: https://www.netflix.com, icon: favicon }
+      - { title: BBC iPlayer, url: https://www.bbc.co.uk/iplayer, icon: favicon }
+      - { title: Spotify, url: https://open.spotify.com, icon: favicon }
+      - { title: Reddit, url: https://www.reddit.com, icon: favicon }
+
+  - name: News & Reference
+    icon: fas fa-newspaper
+    items:
+      - { title: BBC News, url: https://www.bbc.co.uk/news, icon: favicon }
+      - { title: BBC Weather, url: https://www.bbc.co.uk/weather, icon: favicon }
+      - { title: The Guardian, url: https://www.theguardian.com/uk, icon: favicon }
+      - { title: Wikipedia, url: https://en.wikipedia.org, icon: favicon }
+
+  - name: Shopping
+    icon: fas fa-shopping-cart
+    items:
+      - { title: Amazon, url: https://www.amazon.co.uk, icon: favicon }
+      - { title: eBay, url: https://www.ebay.co.uk, icon: favicon }
+
+  - name: Dev
+    icon: fas fa-code
+    items:
+      - { title: GitHub, url: https://github.com/johndoe6345789, icon: favicon }
+      - { title: Docker Hub, url: https://hub.docker.com, icon: favicon }
+      - { title: Hugging Face, url: https://huggingface.co, icon: favicon }
+      - { title: Stack Overflow, url: https://stackoverflow.com, icon: favicon }
+
+  - name: Clock
+    icon: fas fa-clock
+    widgets:
+      - type: clock
+        options:
+          timeZone: Europe/London
+          format: en-GB
